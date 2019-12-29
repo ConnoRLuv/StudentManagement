@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/StudentManagement"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="junit-4.10.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/lib/junit-4.10.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-8.0.18.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-8.0.18.jar!/"/>
+	</lib>
+	<levels>
+		<level name="mysql-connector-java-8.0" value="project"/>
+	</levels>
+</component>
